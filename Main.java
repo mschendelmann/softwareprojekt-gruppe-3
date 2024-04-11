@@ -13,6 +13,7 @@ public class Main {
             if (dot != -1) {
                 version = version.substring(0, dot);
             }
+            //Kommentar
         }
         return Integer.parseInt(version);
     }
