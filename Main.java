@@ -4,6 +4,8 @@ public class Main {
         System.out.println("Your current Java version: " + getVersion());
     }
 
+    // Kommentar von Michi
+
     public static int getVersion() {
         String version = System.getProperty("java.version");
         if (version.startsWith("1.")) {
@@ -13,7 +15,7 @@ public class Main {
             if (dot != -1) {
                 version = version.substring(0, dot);
             }
-            //Kommentar
+            // Kommentar
         }
         return Integer.parseInt(version);
     }
