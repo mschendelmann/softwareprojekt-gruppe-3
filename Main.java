@@ -16,6 +16,7 @@ public class Main {
                 version = version.substring(0, dot);
             }
             // Kommentar
+            //Kommentar Irini
         }
         return Integer.parseInt(version);
     }
