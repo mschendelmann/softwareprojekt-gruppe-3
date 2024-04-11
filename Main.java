@@ -5,7 +5,7 @@ public class Main {
     }
 
     // Kommentar von Michi
-
+//Kommentar Nicole
     public static int getVersion() {
         String version = System.getProperty("java.version");
         if (version.startsWith("1.")) {
